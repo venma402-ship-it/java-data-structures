@@ -1,10 +1,11 @@
-# Java Data Structures Implementation
+# Java Data Structures Library
 
-This project implements fundamental data structures from scratch in Java.
+A simple implementation of fundamental data structures from scratch in Java.
 
 ## Implemented Data Structures
 
 ### Stack
+Operations:
 - push()
 - pop()
 - peek()
@@ -12,28 +13,34 @@ This project implements fundamental data structures from scratch in Java.
 - display()
 
 ### Queue
+Operations:
 - enqueue()
 - dequeue()
 - display()
 
 ### Linked List
+Operations:
 - insert()
 - delete()
 - search()
 - size()
 - display()
 
-## Project Structure
+## Example Output
 
-src/com/venma/datastructures
+Top element: 70
+Removed: 70
+Removed: 60
+Stack size: 5
+Stack elements:
+50 40 30 20 10
 
-Stack.java  
-Queue.java  
-LinkedList.java  
-Main.java  
+--- Queue Test ---
+Queue elements:
+10 20 30
+Removed: 10
+Queue after removal:
+20 30
 
-## Language
-Java
-
-## Author
-Venma Pehan
+--- Linked List Test ---
+10 20 30 40
